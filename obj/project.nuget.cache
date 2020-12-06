@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1sKKGe9YlbP4Ajv+QgvmFNWOZx3VFZMo3NKiF26Z8YgLXnCW3QT2YYsJzAOy0Q+OzxVCbuqkdpZ3ri9+IhLqpg==",
+  "dgSpecHash": "ZQQtewSdcoyGDi0h37d/aCSlNOnYRPWL443A0YnZ1c+LNgyJRrC3KoJd1qyfE40B99AsOXEhqZ2hFnL89ZP5QA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\brian\\OneDrive\\Desktop\\Template\\First\\First.csproj",
+  "projectFilePath": "C:\\Users\\brian\\OneDrive\\Desktop\\Template\\First\\Plantsist.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\brian\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\brian\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\2.0.4\\microsoft.dotnet.platformabstractions.2.0.4.nupkg.sha512",

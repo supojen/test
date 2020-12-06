@@ -10,7 +10,7 @@ using Serilog;
 // DI, Serilog, Settings
 
 
-namespace First
+namespace Plantsist
 {
     class Program
     {

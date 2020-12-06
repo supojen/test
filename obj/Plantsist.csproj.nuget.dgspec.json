@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\brian\\OneDrive\\Desktop\\Template\\First\\First.csproj": {}
+    "C:\\Users\\brian\\OneDrive\\Desktop\\Template\\First\\Plantsist.csproj": {}
   },
   "projects": {
-    "C:\\Users\\brian\\OneDrive\\Desktop\\Template\\First\\First.csproj": {
+    "C:\\Users\\brian\\OneDrive\\Desktop\\Template\\First\\Plantsist.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\brian\\OneDrive\\Desktop\\Template\\First\\First.csproj",
-        "projectName": "First",
-        "projectPath": "C:\\Users\\brian\\OneDrive\\Desktop\\Template\\First\\First.csproj",
+        "projectUniqueName": "C:\\Users\\brian\\OneDrive\\Desktop\\Template\\First\\Plantsist.csproj",
+        "projectName": "Plantsist",
+        "projectPath": "C:\\Users\\brian\\OneDrive\\Desktop\\Template\\First\\Plantsist.csproj",
         "packagesPath": "C:\\Users\\brian\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\brian\\OneDrive\\Desktop\\Template\\First\\obj\\",
         "projectStyle": "PackageReference",

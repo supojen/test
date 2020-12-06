@@ -1,0 +1,12 @@
+{
+    "author": "PoJenSu",
+    "classifications": [ "Common", "Console" ],
+    "name": "Console App For Plantsist",
+    "identity": "Console.Plantsist",        
+    "shortName": "console-plantsist",                 
+    "tags": {
+        "language": "C#"                       
+    },
+    "sourceName": "App.Plantsist",      
+    "preferNameDirectory" : "true"
+}

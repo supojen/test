@@ -1,10 +1,13 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Plantsist.Data;
 using Serilog;
+using Microsoft.EntityFrameworkCore;
+using Plantsist.Service;
 
 
 // DI, Serilog, Settings
@@ -35,8 +38,15 @@ namespace Plantsist
             var host = Host.CreateDefaultBuilder()
                         .ConfigureServices((context, services) =>
                         {
-                            //The following stetment is the example of doing dependency injection
-                            //services.AddTransient<IGreetingservice,GreetingService>();
+                            // Dependecy Injection Here
+                            services.AddSingleton<Startup>();
+
+                            var connectionString = context.Configuration.GetValue<string>("DbConnectionString");
+                            services.AddDbContext<AppDbContext>(opts => 
+                                opts.UseSqlServer(connectionString)
+                            );
+
+                            services.AddScoped<ITest,Test>();
                         })
                         .Build();
 

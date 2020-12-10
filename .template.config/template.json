@@ -1,9 +1,9 @@
 {
     "author": "PoJenSu",
     "classifications": [ "Common", "Console" ],
-    "name": "Console App For Plantsist",
-    "identity": "Console.Plantsist",        
-    "shortName": "console-plantsist",                 
+    "name": "Console App with Ef Core For Plantsist",
+    "identity": "Console.Plantsist.Ef",        
+    "shortName": "console-plantsist-ef",                 
     "tags": {
         "language": "C#"                       
     },

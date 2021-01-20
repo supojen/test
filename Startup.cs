@@ -31,6 +31,8 @@ namespace Plantsist
 
             await Task.Delay(1000);
 
+            System.Console.WriteLine("Hello World.");
+
             _logger.LogInformation("The application stop now!");
         }
     }
